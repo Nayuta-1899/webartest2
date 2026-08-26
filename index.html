@@ -25,7 +25,7 @@
         }
         
         <!-- このボタンを押すとカメラが起動します -->
-    <button slot="ar-button" style="background: #2563eb; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">
+    <button slot="ar-button" style="background: #2563eb; color: red; padding: 12px 24px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">
         ARカメラを起動する
     </button>
         
@@ -46,10 +46,6 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        /* ARモード中に非表示にするためのクラス */
-        model-viewer[ar-status="session-started"] #ar-button {
-            display: none;
-        }
     </style>
 </head>
 <body>
